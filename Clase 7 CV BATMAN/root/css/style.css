@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(155, 221, 209, 0.3);
+}
+h1, h2{
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', cursive; */
+    background-color: #9bddd1;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+header{
+    text-align: center;
+    background-color: #42e3cbe5;
+
+}
+main h1{
+    padding: 8px;
+    font-weight: 700px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #005677;
+    margin-bottom: 120px;
+
+
+}
+main h2{
+    padding: 10px;
+    letter-spacing: 3px;
+    color: #005677;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+p{
+    display: inline;
+}
+
+#datos .categoria, .años{
+    /* font-style: italic; */
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
