@@ -1,176 +1,66 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+/* ESTILOS GENERALES */
 
+body{
+    margin: 0;
+    padding: 0;
 }
-body{ 
+
+
+
+/* TIPOGRAFIAS GENERALES */
+body{
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    width: 1024px;
-    height: 1807px;
 }
-/* HEADER */
-    /* section topborder */
-header #topborder{
+
+
+/* HEADER Estilos */
+header{
+    margin: 0;
+}
+
+    /* Borde superior */
+#topborder{
     background-color: #222222;
-    position: absolute;
-    width: 1024px;
+    color: white;
+    font-size: 12px;
     height: 20px;
-    left: calc(50% - 1024px/2);
-    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#topborder ul{
     display: flex;
 }
-header section#topborder ul li{
-    display: inline;
+#topborder ul li{
+    padding-left: 20px;
 }
-header section#topborder ul #l1i1{
-    position: absolute;
-    color: white;
-    font-size: 10px;
-    padding-left: 90px;
-    padding-top: 4px;
-}
-header section#topborder ul #l2i2{
-    background-color: #222222;
-    padding-right: -882px;
-    position: absolute;
-    width: 46px;
-    height: 12px;
-    left: 882px;
-    top: 0px;
 
-}
-header section#topborder ul #l3i3{
-    /* padding-right: 900px; */
-    position: absolute;
-    width: 36px;
-    height: 12px;
-    left: 938px;
-    top: 0px;
-}
-.customselect{
-    display:none;
-    width: 200px;
-}
-.customselect select{
-    appearance:none ;
-    background-image: url(../img/puntero.png);
-    background-size: 7px;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: right;
-    border: none;
+    /* Barra de nav */
+#navbar{
+    background-color: #F0A83E;
     margin: 0;
-    width: 48px;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    padding: 0 20px;
+}
 
-color: #ffffff;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-}
-.customselect select:hover{
-    background-color:#222222;
-}
-.customselect select:focus{
-    background-color: #222222;
-    
-}
-    /* section navbar */
-header #navbar{
-    background-color: #F0A83E;
-    position: absolute;
-width: 1024px;
-height: 62px;
-left: calc(50% - 1024px/2);
-top: 20px;
-}
-header section#navbar #logo{
-    position: absolute;
-    width: 166.38px;
-    height: 23px;
-    left: 40px;
-    top: 39px;
-    
-}
-header section#navbar ul li{
-    display: inline;
-    position: relative;
-width: 343px;
-height: 15px;
-left: 641px;
-top: 43px;}
-
-header section#navbar ul li a{
-    color: white;
-    text-decoration: none;
-}
-    /* section pawbackground */
-header #sectionpaw{
+    /* Banner principal */
+#sectionpaw{
     background-image: url('../img/background.png');
-    background-position-y: center;
     background-repeat: no-repeat;
-    padding-top: 570px;
+    background-size: cover;
+    width: auto;
+    height: 300px;
 }
 
-header #sectionpaw h1{
-    background-color: #ffffff;
-width: 365px;
-height: 54px;
-left: 648px;
-top: 237px;
-position: absolute;
-width: 345px;
-height: 35px;
-left: 658px;
-top: 246px;
-border-radius: 5px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-text-align: center;
-color: #3C2313;
-}
-header #sectionpaw h6{
-    position: absolute;
-width: 290px;
-height: 19px;
-left: 687px;
-top: 290px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-text-align: center;
-}
-header #sectionpaw a button{
-    background-color: #F0A83E;
-    position: absolute;
-    width: 141px;
-    height: 49px;
-    left: 767px;
-    top: 324px;
-    border-radius: 5px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #ffffff;
-}
-/* MAIN */
 
 
 
-/* FOOTER */
+/* MAIN Estilos */

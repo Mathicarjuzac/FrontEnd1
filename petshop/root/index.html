@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>FrontCat&Dog Pet Shop</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/stylesprueba.css"> -->
 </head>
 <body>
     <header>
         <section id="topborder">
+            <p>Grandes ofertas en comederos</p>
             <ul type="none">
-                <li id="l1i1">Grandes ofertas en comederos
-                    <!-- <a href="#"></a> -->
-                </li>
                 <li id="l2i2" class="customselect">
                     <select name="idioma">
-                    <option value="Español">Español</option>
-                    <option value="Ingles">Ingles</option>
-                    <option value="Frances">Frances</option>
-                    <option value="Turco">Turco</option>
+                        <option value="Español">Español</option>
+                        <option value="Ingles">Ingles</option>
+                        <option value="Frances">Frances</option>
+                        <option value="Turco">Turco</option>
                     </select>
                 </li>
                 <li id="l3i3" class="customselect">
@@ -48,7 +48,7 @@
         <section  id="sectionpaw">
             <h1>¡Es un placer tenerte aquí!</h1>
             <h6>¡Comederos con descuento!</h6>
-            <a href="https://google.com.ar" target="_blank"><button type="button" id="botonPrinc">COMEDEROS</button></a>
+            <a href="#"><button type="button" id="botonPrinc">COMEDEROS</button></a>
         </section>
     </header>
     <main>
@@ -94,7 +94,7 @@
             </form>
             <button type="reset" form="contact">Reiniciar</button>
             <!--  INVESTIGAR COMO ARREGLAR EL BOTON ENVIAR -->
-            <button type="submit" form="contact">Enviar</button>
+            <button type="submit" form="contact" value="1">Enviar</button>
         </section>
     </main>
     <footer>
@@ -102,7 +102,7 @@
             <img src="./img/Mail foto.png">
             <p>Suscríbete para más novedades</p>
             <form action="" id="subscribe">
-                <input type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                <input type="email" name="email" placeholder="Ingresá tu correo electrónico" required>
             </form>
             <button type="submit" form="subscribe">Suscribirme</button>
         </section>
