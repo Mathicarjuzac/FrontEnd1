@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border: 2px solid #000;
+}
+.container .btn, .container .btn2-alt2, .container .btn-alt, .container .btn-sec, .container .btn-pri {
+  width: 150px;
+  height: 60px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 5px 25px;
+  border-radius: 10px;
+}
+.container .btn:hover, .container .btn2-alt2:hover, .container .btn-alt:hover, .container .btn-sec:hover, .container .btn-pri:hover {
+  opacity: 60%;
+}
+.container .btn-pri {
+  background-color: purple;
+  color: white;
+  border: none;
+}
+.container .btn-sec {
+  background: none;
+  color: purple;
+  border: 2px solid purple;
+}
+.container .btn-alt {
+  background: none;
+  border: none;
+  color: purple;
+}
+.container .btn2, .container .btn2-sec2, .container .btn2-pri2 {
+  width: 170px;
+  height: 80px;
+  padding: 15px 15px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin: 5px 25px;
+  border-radius: 3px;
+}
+.container .btn2:hover, .container .btn2-sec2:hover, .container .btn2-pri2:hover {
+  opacity: 60%;
+}
+.container .btn2-pri2 {
+  background-color: rgb(141, 221, 28);
+  color: white;
+  border: none;
+}
+.container .btn2-sec2 {
+  background: none;
+  color: rgb(141, 221, 28);
+  border: 5px solid rgb(141, 221, 28);
+}
+.container .btn2-alt2 {
+  background: none;
+  border: none;
+  color: rgb(141, 221, 28);
+}/*# sourceMappingURL=main.css.map */

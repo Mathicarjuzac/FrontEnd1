@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nike</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Poner .clase o etiqueta.clase crea la etiqueta con la clase directamente -->
+    <section class="flex-column-center container-form">
+        <img src="#" alt="logo">
+        <h2>Enterate antes que nadie</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque perferendis commodi velit nihil, eligendi itaque magni necessitatibus et, accusantium cupiditate ipsum quaerat libero accusamus quos modi, consequuntur blanditiis minima consectetur!</p>
+        <form action="blabla" method="post" class="columna">
+            <label for="email">Dirección de correo electronico</label>
+            <input type="email" name="email" id="email">
+            <section class="fila">
+                <div class="columna">
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div class="columna">
+                    <label for="compra">Preferencia de compra</label>
+                    <select name="compra" id="compra">
+                        <option selected disabled>Elegir</option>
+                        <option value="hombre">Para hombre</option>
+                        <option value="mujer">Para mujer</option>
+                    </select>
+                </div>
+            </section>
+            <button type="submit" class="btn">Inscribete</button>
+        </form>
+        <p>Disclaimer</p>
+
+    </section>
+    
+</body>
+</html>

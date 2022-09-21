@@ -1,0 +1,81 @@
+// Armamos un generador de boton primario, secundario y alternativo pasando un color
+
+// Variable
+    // Seteo la variable usando el signo $ delante de la palabra
+$color-principal: purple;
+$color-principal2: rgb(141, 221, 28);
+$ancho-borde: 2px;
+$ancho-borde2: 5px;
+// Nesting --> Anidamiento
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: $ancho-borde solid #000;
+    .btn {
+        width: 150px;
+        height: 60px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        margin: 5px 25px;
+        border-radius: 10px;
+        &:hover{
+            opacity: 60%;
+        }
+        &-pri {
+            @extend .btn;
+            background-color: $color-principal;
+            color: white;
+            border: none;
+        }
+        &-sec {
+            @extend .btn;
+            background: none;
+            color: $color-principal;
+            border: $ancho-borde solid $color-principal;
+        }
+        &-alt {
+            @extend .btn;
+            background: none;
+            border: none;
+            color: $color-principal;
+        }
+    }
+    .btn2{
+        width: 170px;
+        height: 80px;
+        padding: 15px 15px;
+        cursor: pointer;
+        font-size: 1.3rem;
+        margin: 5px 25px;
+        border-radius: 3px;
+        &:hover{
+            opacity: 60%;
+        }
+        &-pri2{
+            @extend .btn2;
+            background-color: $color-principal2;
+            color: white;
+            border: none;
+        }
+        &-sec2{
+            @extend .btn2;
+            background: none;
+            color: $color-principal2;
+            border: $ancho-borde2 solid $color-principal2;
+        }
+        &-alt2{
+            @extend .btn;
+            background: none;
+            border: none;
+            color: $color-principal2;
+        }
+    }
+}
+
+
+
+// Shorthand y Extend
+
